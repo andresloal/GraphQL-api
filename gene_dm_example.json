@@ -1,0 +1,370 @@
+{
+  "geneInfo": {
+    "id": "RDBECOLIGN00001",
+    "name": "fimB",
+    "leftEndPosition": 4540957,
+    "rightEndPosition": 4541559,
+    "strand": "forward",
+    "sequence": "ATGAAGAATAAGGCTGATAACAAAAAAAGGAACTTCCTGACCCATAGTGAAATCGAATCACTCCTTAAAGCAGCAAATACCGGGCCTCATGCAGCACGTAATTATTGTCTGACTTTGCTTTGTTTTATTCATGGTTTCCGGGCGAGTGAAATTTGTCGATTGAGGATTTCGGATATTGATCTTAAGGCAAAGTGTATATATATCCATCGATTAAAAAAAGGCTTTTCAACAACGCACCCGCTATTGAATAAAGAAGTTCAGGCTTTAAAAAACTGGTTGAGTATCCGTACTTCGTACCCGCATGCTGAGAGCGAGTGGGTATTTTTATCACGTAAGGGGAATCCGCTTTCTCGGCAACAGTTTTACCATATTATCTCGACTTCCGGTGGTAATGCCGGGTTGTCACTGGAGATTCATCCGCACATGTTACGCCATTCGTGTGGTTTTGCTTTGGCGAATATGGGAATAGATACGCGACTTATCCAGGATTATCTTGGGCATCGCAATATTCGTCATACTGTCTGGTATACCGCCAGCAATGCAGGGCGTTTTTACGGCATCTGGGATAGAGCCAGAGGACGACAGCGTCACGCTGTTTTATAG",
+    "gcContent": 43.45,
+    "centisomePosition": 12.12,
+    "note": "<br><i>fimB</i> transcription is regulated by growth phase and its repression require the alternative sigma factor, RpoS during enter stationary phase. Although the mechanism by which RpoS achieves negative control is unknown it is possible that the effect on <i>fimB</i> is exerted indirectly |CITS:[9108285]|.<br>By making use of microarray analysis, Constantinidou et al |CITS: [16377617]| concluded that FNR represses  <i>fimB</i> gene expression, but it is not know which of the three promoters (<i>fimB</i>p1, <i>fimB</i>p2, <i>fimB</i>p3) is affected. They also identified a putative FNR binding site upstream of the gene, but the sequence was not shown.",
+    "type": "gene",
+    "synonyms": ["fimB1", "fimB2", "fimB3"],
+    "terms": {
+      "multifun": [
+        [
+          "1 - metabolism",
+          "1.6 - biosynthesis of macromolecules (cellular constituents)",
+          "1.6.13 - fimbri, pili"
+        ],
+        [
+          "2 - information transfer",
+          "2.1 - DNA related",
+          "2.1.3 - DNA recombination"
+        ],
+        [
+          "3 - regulation",
+          "3.1 - type of regulation",
+          "3.1.1 - DNA structure level"
+        ],
+        ["3 - regulation", " 3.3 - genetic unit regulated", " 3.3.1 - operon"],
+        ["6 - cell structure", "6.5 - pilus"]
+      ],
+      "geneOntology": {
+        "cellularComponent": [
+          {
+            "id": "GO:0005829",
+            "name": "cytosol"
+          }
+        ],
+        "molecularFunction": [
+          {
+            "id": "GO:0003677",
+            "name": "DNA binding"
+          }
+        ],
+        "biologicalProcess": [
+          {
+            "id": "GO:0006310",
+            "name": "DNA recombination"
+          },
+          {
+            "id": "GO:0006351",
+            "name": "transcription, DNA-templated"
+          },
+          {
+            "id": "GO:0006355",
+            "name": "regulation of transcription, DNA-templated"
+          },
+          {
+            "id": "GO:0006974",
+            "name": "cellular response to DNA damage stimulus"
+          },
+          {
+            "id": "GO:0015074",
+            "name": "DNA integration"
+          }
+        ]
+      }
+    },
+    "externalCrossReferences": [
+      {
+        "id": "511145.b4312",
+        "name": "String",
+        "url": "http://string-db.org/newstring_cgi/show_network_section.pl?identifier=511145.b4312"
+      },
+      {
+        "id": "ABE-0014141",
+        "name": "ASAP",
+        "url": "http://asap.ahabs.wisc.edu/asap/feature_info.php?FeatureID=ABE-0014141"
+      },
+      {
+        "id": "b4312",
+        "name": "OU-Microarray",
+        "url": "https://genexpdb.okstate.edu/databases/genexpdb/?query=b4312"
+      },
+      {
+        "id": "18355",
+        "name": "Coli Genetic Stock Center",
+        "url": "http://cgsc.biology.yale.edu/Site.php?ID=18355"
+      },
+      {
+        "id": "fimB",
+        "name": "PortEco",
+        "url": "http://porteco.org/AjaxSearch.jsp?searchString=fimB"
+      },
+      {
+        "id": "EB0305",
+        "name": "EchoBASE",
+        "url": "http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=EB0305"
+      },
+      {
+        "id": "b4312",
+        "name": "RegulonDB",
+        "url": "http://regulondb.ccg.unam.mx/search?term=b4312&organism=ECK12&type=All"
+      }
+    ],
+    "evidenceReferences": [
+      {
+        "evidenceName": "Evidence Computational",
+        "evidenceCode": "EV-COMP",
+        "evidenceType": "Strong",
+        "referenceId": 9108285,
+        "referenceURL": "http://www.ncbi.nlm.nih.gov/pubmed/9108285",
+        "referenceCitation": "Dove, S., Smith, S. & Dorman, C. Control of Escherichia coli type 1 fimbrial gene expression in stationary phase: a negative role for RpoS. Mol Gen Genet 254, 13–20 (1997) doi:10.1007/s004380050385"
+      }
+    ]
+  },
+  "product": {
+    "regulatorId": "RDBECOLIRG00001",
+    "name": "regulator for fimA",
+    "sequence": "MKNKADNKKRNFLTHSEIESLLKAANTGPHAARNYCLTLLCFIHGFRASEICRLRISDIDLKAKCIYIHRLKKGFSTTHPLLNKEVQALKNWLSIRTSYPHAESEWVFLSRKGNPLSRQQFYHIISTSGGNAGLSLEIHPHMLRHSCGFALANMGIDTRLIQDYLGHRNIRHTVWYTASNAGRFYGIWDRARGRQRHAVL",
+    "type": "product type",
+    "note": "FimB, along with FimE, is a recombinase in <I>Escherichia coli</I> which catalyzes the site-specific recombination required for inversion of a 314-bp invertible DNA element, the <I>fim</I> switch (<I>fimS</I>), to control transcription of the type I fimbrial structural genes--a process known as phase-variation switching. <I>fimS</I> contains the promoter for expression of the fimbrial structural genes. The promoter is positioned to allow expression of <I>fimAICDFGH</I> when <I>fimS</I> is in the ON orientation, but not when it is in the OFF orientation. FimB is responsible for both OFF-to-ON and ON-to-OFF switching at equal rates. FimE is responsible for primarily ON-to-OFF switching.  <br>FimB and FimE share significant homology with the lambda integrase family of site-specific recombinases |CITS:[2886490]|.  <br>Analyses of <I>fimB</I> and <I>fimE</I> mutants and direct assays indicate that <I>fimB</I> is able to mediate recombination in both directions (on-to-off and off-to-on) while <I>fimE</I> only stimulates recombination in the on-to-off direction |CITS:[2874022],[2571915],[1679430],[8898385],[8101185],[8878036]|. Extensive analysis of <I>fimS</I> has been performed showing the specificity of FimB and FimE for <I>fimS</I> sequences, the effect of sequence alterations on the ability of FimB and FimE to catalyze inversion, the effects of temperature and media on inversions, and the effects of alterations in the way other accessory proteins like Lrp, IHF, and H-NS are able to interact with this system |CITS:[2863818],[2886490],[2888114],[1348054],[1362708],[8093239],[8104927],[7510658],[7916011],[7715458],[9157242],[9515701],[10792731],[16159759],[16855224],[18048927],[18034794]|.<br>Protein fusion studies indicate that <I>fimB</I> expression is suppressed by the lysosomal enzyme <I>N</I>-acetyl-<I>B</I>-glucosaminidase |CITS:[15534208]|. Expression of <I>fimB</I> is regulated by N-acetylglucosamine (GlcNAc) by preventing NagC activation of transcription from two NagC binding sites located upstream of <I>fimB</I> |CITS:[15534208]|. IHF binds at <I>ibs</I> between the NagC sites and enhances cooperative binding of NagC at the two NagC binding sites |CITS:[17238917]|. Sialic acid also regulates expression of <I>fimB</I> by preventing NanR and NagC activation of transcription from binding sites upstream of <I>fimB</I> |CITS:[12890032],[15534208],[17238917]|. Mutation of these binding sites reduces <I>fimB</I> expression |CITS:[17238917]|.  Expression of <I>fimB</I> is also controlled by (p)ppGpp, and mutants lacking (p)ppGpp have reduced transcription of the gene |CITS:[16796685]|. <I>fimB</I> and <I>fimE</I> are repressed by H-NS |CITS:[9352908],[9595659],[9922259]|. RpoS is also involved in negative regulation of <I>fimB</I>.  Expression of <I>fimB</I> and <I>fimE</I> are controlled by RcsB during growth at neutral pH by increasing <I>fimB</I> transcription or decreasing <I>fimE</I> transcription depending on salt concentration |CITS:[17644608]|. The effects of pH and osmolarity on <I>fimB</I> and <I>fimE</I> expression have also been studied in uropathogenic <I>E. coli</I> |CITS:[11854225]|.  <br>",
+    "molecularWeight": 22.993,
+    "isoelectricPoint": 10.687,
+    "cellularLocation": "cytosol",
+    "anticodon": "anticodon",
+    "synonyms": ["Pil", "FimB"],
+    "motifs": [
+      {
+        "leftEndPosition": 12,
+        "rightEndPosition": 180,
+        "sequence": "FLTHSEIESLLKAANTGPHAARNYCLTLLCFIHGFRASEICRLRISDIDLKAKCIYIHRLKKGFSTTHPLLNKEVQALKNWLSIRTSYPHAESEWVFLSRKGNPLSRQQFYHIISTSGGNAGLSLEIHPHMLRHSCGFALANMGIDTRLIQDYLGHRNIRHTVWYTASN"
+      },
+      {
+        "leftEndPosition": 13,
+        "rightEndPosition": 13,
+        "sequence": "L",
+        "note": "UniProt: (in Ref. 5; AAA23779)."
+      },
+      {
+        "leftEndPosition": 32,
+        "rightEndPosition": 32,
+        "sequence": "A",
+        "note": "UniProt: (in Ref. 5; AAA23779)."
+      },
+      {
+        "leftEndPosition": 85,
+        "rightEndPosition": 85,
+        "sequence": "E",
+        "note": "UniProt: (in Ref. 1; CAA27560)."
+      }
+    ],
+    "externalCrossReferences": [
+      {
+        "id": "PRO_000022617",
+        "name": "Protein Ontology",
+        "url": "http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=PRO_000022617"
+      },
+      {
+        "id": "NP_418732",
+        "name": "NCBI Reference Sequences Database",
+        "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NP_418732"
+      },
+      {
+        "id": "DIP-47842N",
+        "name": "Database of Interacting Proteins",
+        "url": "http://dip.doe-mbi.ucla.edu/dip/Browse.cgi?ID=DIP-47842N"
+      },
+      {
+        "id": "PF00589",
+        "name": "Pfam",
+        "url": "http://pfam.xfam.org/family/PF00589"
+      },
+      {
+        "id": "P0ADH5",
+        "name": "Pride",
+        "url": " http://www.ebi.ac.uk/pride/searchSummary.do?queryTypeSelected=identification%20accession%20number&identificationAccessionNumber=P0ADH5"
+      },
+      {
+        "id": "P0ADH5",
+        "name": "MODBASE",
+        "url": "http://modbase.compbio.ucsf.edu/modbase-cgi/model_search.cgi?searchkw=name&kword=P0ADH5"
+      },
+      {
+        "id": "IPR011010",
+        "name": "InterPro",
+        "url": "http://www.ebi.ac.uk/interpro/entry/IPR011010"
+      },
+      {
+        "id": "MINT-1221137",
+        "name": "Mint",
+        "url": "http://mint.bio.uniroma2.it/mint/search/search.do?queryType=protein&interactorAc=MINT-1221137"
+      },
+      {
+        "id": "P0ADH5",
+        "name": "SWISS-MODEL",
+        "url": "http://swissmodel.expasy.org/repository/smr.php?sptr_ac=P0ADH5"
+      },
+      {
+        "id": "P0ADH5",
+        "name": "UniProt",
+        "url": "https://www.uniprot.org/uniprot/P0ADH5"
+      },
+      {
+        "id": "b4312",
+        "name": "EcoliWiki",
+        "url": "http://ecoliwiki.net/colipedia/index.php/b4312"
+      },
+      {
+        "id": "P0ADH5",
+        "name": "Protein Model Portal",
+        "url": "http://www.proteinmodelportal.org/query/uniprot/P0ADH5"
+      }
+    ],
+    "evidenceReferences": [
+      {
+        "evidenceName": "Assay of unpurified protein ",
+        "evidenceCode": "AUP",
+        "evidenceType": "Strong",
+        "referenceId": 8878036,
+        "referenceURL": "http://www.ncbi.nlm.nih.gov/pubmed/8878036",
+        "referenceCitation": "Gally, D.L., Leathart, J. and Blomfield, I.C. (1996), Interaction of FimB and FimE with the fim switch that controls the phase variation of type 1 fimbriae in Escherichia coli K‐12. Molecular Microbiology, 21: 725-738. doi:10.1046/j.1365-2958.1996.311388.x"
+      },
+      {
+        "referenceId": 10648536,
+        "referenceURL": "http://www.ncbi.nlm.nih.gov/pubmed/10648536",
+        "referenceCitation": "Antigen 43 and Type 1 Fimbriae Determine Colony Morphology of Escherichia coli K-12 Henrik Hasman, Mark A. Schembri, Per Klemm Journal of Bacteriology Feb 2000, 182 (4) 1089-1095; DOI: 10.1128/JB.182.4.1089-1095.2000"
+      },
+      {
+        "referenceId": 11881836,
+        "referenceURL": "http://www.ncbi.nlm.nih.gov/pubmed/11881836",
+        "referenceCitation": "Denise M. Wolf and Adam P. Arkin.OMICS: A Journal of Integrative Biology.Jan 2002.91-114."
+      },
+      {
+        "referenceId": 10781567,
+        "referenceURL": "http://www.ncbi.nlm.nih.gov/pubmed/10781567",
+        "referenceCitation": "Interaction of the FimB Integrase with thefimS Invertible DNA Element in Escherichia coli In Vivo and In Vitro Lesley S. Burns, Stephen G. J. Smith, Charles J. Dorman Journal of Bacteriology May 2000, 182 (10) 2953-2959; DOI: 10.1128/JB.182.10.2953-2959.2000"
+      },
+      {
+        "referenceId": 16988236,
+        "referenceURL": "http://www.ncbi.nlm.nih.gov/pubmed/16988236",
+        "referenceCitation": "Teng CH, Xie Y, Shin S, et al. Effects of ompA deletion on expression of type 1 fimbriae in Escherichia coli K1 strain RS218 and on the association of E. coli with human brain microvascular endothelial cells. Infect Immun. 2006;74(10):5609–5616. doi:10.1128/IAI.00321-06"
+      }
+    ]
+  },
+  "shineDalgarno": [
+    {
+      "distanceToGene": -11,
+      "leftEndPosition": 4540943,
+      "rightEndPosition": 4540948,
+      "sequence": "tctgtaattaTAAGGGaaaaacgATG",
+      "note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  ],
+  "regulation": {
+    "operon": {
+      "id": "RDBECOLIOP00001",
+      "name": "fimB",
+      "arrangement": [
+        {
+          "regulator": {
+            "id": "RDBECOLIRG00002",
+            "name": "NagC",
+            "type": "activator"
+          },
+          "promoter": {
+            "id": "RDBECOLIPM00001",
+            "name": "fimBp1"
+          },
+          "transcriptionUnit": {
+            "id": "RDBECOLITU00001",
+            "name": "fimB"
+          }
+        },
+        {
+          "regulator": {
+            "id": "RDBECOLIRG00003",
+            "name": "IHF",
+            "type": "activator"
+          },
+          "promoter": {
+            "id": "RDBECOLIPM00002",
+            "name": "fimBp2"
+          },
+          "transcriptionUnit": {
+            "id": "RDBECOLITU00002",
+            "name": "fimB"
+          }
+        },
+        {
+          "regulator": {
+            "id": "RDBECOLIRG00004",
+            "name": "H-NS",
+            "type": "repressor"
+          },
+          "promoter": {
+            "id": "RDBECOLIPM00003",
+            "name": "fimBp3"
+          },
+          "transcriptionUnit": {
+            "id": "RDBECOLITU00003",
+            "name": "fimB"
+          }
+        }
+      ]
+    },
+    "regulators": [
+      {
+        "id": "RDBECOLIRG00002",
+        "name": "NagC",
+        "type": "activator"
+      },
+      {
+        "id": "RDBECOLIRG00003",
+        "name": "IHF",
+        "type": "activator"
+      },
+      {
+        "id": "RDBECOLIRG00004",
+        "name": "H-NS",
+        "type": "repressor"
+      }
+    ],
+    "context": [
+      {
+        "type": "promoter",
+        "name": "TSS_5131",
+        "leftEndPosition": 4540686,
+        "strand": "forward",
+        "note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "evidenceReferences": [
+          {
+            "evidenceName": "RNA-seq using two enrichment strategies for primary transcripts and consistent biological replicates",
+            "evidenceCode": "RS-EPT-CBR",
+            "evidenceType": "Strong",
+            "referenceId": 23203884,
+            "referenceURL": "https://www.ncbi.nlm.nih.gov/pubmed/23203884",
+            "referenceCitation": "Heladia Salgado, Martin Peralta-Gil, Socorro Gama-Castro, Alberto Santos-Zavaleta, Luis Muñiz-Rascado, Jair S. García-Sotelo, Verena Weiss, Hilda Solano-Lira, Irma Martínez-Flores, Alejandra Medina-Rivera, Gerardo Salgado-Osorio, Shirley Alquicira-Hernández, Kevin Alquicira-Hernández, Alejandra López-Fuentes, Liliana Porrón-Sotelo, Araceli M. Huerta, César Bonavides-Martínez, Yalbi I. Balderas-Martínez, Lucia Pannier, Maricela Olvera, Aurora Labastida, Verónica Jiménez-Jacinto, Leticia Vega-Alvarado, Victor del Moral-Chávez, Alfredo Hernández-Alvarez, Enrique Morett, Julio Collado-Vides, RegulonDB v8.0: omics data sets, evolutionary conservation, regulatory phrases, cross-validated gold standards and more, Nucleic Acids Research, Volume 41, Issue D1, 1 January 2013, Pages D203–D213, https://doi.org/10.1093/nar/gks1201"
+          }
+        ]
+      }
+    ],
+    "statistics": {
+      "regulators": 3,
+      "regulatoryInteractions": 4,
+      "promoters": 3
+    }
+  },
+  "growthConditions": [
+    {
+      "id": "MCO000000245",
+      "controlCondition": "Escherichia coli| metC knockout mutant| MOPS| S-nitrosoglutathione 50 µM; glucose| pH 7.0| 37.0 C| OD600 below 0.7",
+      "experimentalCondition": "Escherichia coli| metC knockout mutant| MOPS| S-nitrosoglutathione 50 µM; glucose; homocysteine 1 mM| pH 7.0| 37.0 C| OD600 below 0.7",
+      "effect": "repressed",
+      "evidenceReferences": [
+        {
+          "evidenceName": "Inferred from expression pattern",
+          "evidenceCode": "IEP",
+          "evidenceType": "Strong",
+          "referenceId": 8021175,
+          "referenceURL": "https://www.ncbi.nlm.nih.gov/pubmed/8021175",
+          "referenceCitation": "Characterization of the sigma 38-dependent expression of a core Escherichia coli starvation gene, pexB.O L Lomovskaya, J P Kidwell, A MatinJ Bacteriol. 1994 Jul; 176(13): 3928–3935."
+        }
+      ]
+    }
+  ],
+  "organismName": "E. coli K12"
+}
